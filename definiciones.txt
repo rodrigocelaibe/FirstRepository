@@ -1,0 +1,15 @@
+.delete - eliminar (produce efecto)
+.push - agregar (produce efecto)
+.size - consultar tamaño (no produce efecto)
+.include? - está? (no produce efecto)
+
+.all? - todos? (no produce efecto)
+.any? - alguno? (no produce efecto)
+.count - contar elementos (no produce efecto)
+.sum - sumatoria elementos (no produce efecto)
+.map - "modificar" colección (no produce efecto)
+.each - "modificar" colección (produce efecto)
+
+Qué mensajes básicos entienden: "agregar" y "quitar" elementos mediante push y delete, preguntar si existe un elemento usando "include?", y saber el tamaño de la colección enviándole "size"
+Qué son los bloques, cómo se aplican y cómo se les pasan parámetros
+Mensajes más complejos que utilizan bloques como select, find, map, all?, any?, count, sum y each. ¡Son un montón!
